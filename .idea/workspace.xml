@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19ec95ae-1b23-4901-9eea-9bed2db37436" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/PaddlePaddleTargetDetectionProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_blame.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="19ec95ae-1b23-4901-9eea-9bed2db37436" name="更改" comment="&quot;初始化PyCharm项目设置与配置&quot;&#10;&quot;图片标注&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/DataAugmentationClass.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/DataAugmentationClass.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "lesiyu129"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:lesiyu129/PaddlePaddleTargetDetectionProject.git",
+    "accountId": "3ab50bed-eedd-4fac-8fbe-f343b669b9c8"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -122,6 +129,43 @@
       <option name="presentableId" value="Default" />
       <updated>1723431971974</updated>
     </task>
+    <task id="LOCAL-00001" summary="&quot;初始化PyCharm项目设置与配置&quot;&#10;&quot;图片标注&quot;">
+      <option name="closed" value="true" />
+      <created>1723456920505</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1723456920505</updated>
+    </task>
+    <task id="LOCAL-00002" summary="&quot;初始化PyCharm项目设置与配置&quot;&#10;&quot;图片标注&quot;">
+      <option name="closed" value="true" />
+      <created>1723456932889</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723456932889</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;初始化PyCharm项目设置与配置&quot;&#10;&quot;图片标注&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;初始化PyCharm项目设置与配置&quot;&#10;&quot;图片标注&quot;" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test.py</url>
+          <line>70</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="dAC(img)" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

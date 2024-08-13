@@ -37,12 +37,16 @@ if __name__ == '__main__':
             boxs.append(list_data)
     img = paddle.vision.image.image_load('./data/img/1.jpeg')
     img = np.array(img)
-    img_dac = dAC(img).transform_img()
-    [xx, yy, ww, hh] = coordinate_transformation(boxs[0][1:], img.shape[0], img.shape[1])
-    [xx1, yy1, ww1, hh1] = coordinate_transformation(boxs[1][1:], img.shape[0], img.shape[1])
+
+    img_dac, boxs, labels = dAC(img, [box[1:] for box in boxs]).transform_img()
+
+    [xx, yy, ww, hh] = coordinate_transformation(boxs[0], img_dac.shape[0], img_dac.shape[1])
+    [xx1, yy1, ww1, hh1] = coordinate_transformation(boxs[1], img_dac.shape[0], img_dac.shape[1])
     boxs1 = get_box(xx, yy, ww, hh)
     boxs2 = get_box(xx1, yy1, ww1, hh1)
+
     plt.figure('img')
+    plt.imshow(img_dac)
     # 中心坐标
     plt.plot(xx, yy, 'r*')
     # 左上角坐标
@@ -64,11 +68,6 @@ if __name__ == '__main__':
     # 右上角坐标
     plt.plot(boxs2[3][0], boxs2[3][1], 'b*')
 
-    plt.imshow(img)
     plt.axis('off')
     plt.title('img')
-    # plt.figure('img_dac')
-    # plt.imshow(img_dac)
-    # plt.axis('off')
-    # plt.title('img_dac')
     plt.show()
